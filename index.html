@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN</title>
+    <!-- -------------Custom CSS--------------------------- -->
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- ------------Google Icons---------------- -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+sharp" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <h2>AD<span class="danger">MIN</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-outlined dark">
+                        close
+                    </span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        dashboard
+                    </span>
+                    <h3>DASHBOARD</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-symbols-outlined">
+                        person
+                    </span>
+                    <h3>CUSTOMERS</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        list_alt
+                    </span>
+                    <h3>ORDERS</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        auto_read_pause
+                    </span>
+                    <h3>MESSAGE</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        stacked_line_chart
+                    </span>
+                    <h3>DATA</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        logout
+                    </span>
+                    <h3>LOGOUT</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- -----------------------END OF ASIDE------------------------------------------ -->
+
+
+
+        <!-- ------------------------START MAIN SECTION----------------------------------- -->
+        <main>
+            <h1>DASHBOARD</h1>
+
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="insights">
+                <div class="sales">
+                    <span class="material-symbols-outlined">monitoring</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3 class="dark">Total Sales</h3>
+                            <h1 class="dark">$25,500</h1>
+                        </div>
+
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!-- -----------------END OF SALE----------------------- -->
+                <div class="expense">
+                    <span class="material-symbols-outlined">bar_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3 class="dark">Total Expense</h3>
+                            <h1 class="dark">$25,500</h1>
+                        </div>
+
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>71%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!-- -----------------END OF EXPENSE----------------------- -->
+                <div class="income">
+                    <span class="material-symbols-outlined">stack</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3 class="dark">Total Income</h3>
+                            <h1 class="dark">$81,500</h1>
+                        </div>
+
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>78%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!-- -----------------END OF INCOME----------------------- -->
+            </div>
+
+
+            <!-- ------------------END OF INSIGHTS------------------------- -->
+
+            <div class="recent-order">
+                <h2>Recent Order</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Products Name</th>
+                            <th>Products Number</th>
+                            <th>Payments</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mini Drone</td>
+                            <td>859658</td>
+                            <td>Due</td>
+                            <td class="warning">pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Mini Drone</td>
+                            <td>859658</td>
+                            <td>Due</td>
+                            <td class="warning">pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Mini Drone</td>
+                            <td>859658</td>
+                            <td>Due</td>
+                            <td class="warning">pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Mini Drone</td>
+                            <td>859658</td>
+                            <td>Due</td>
+                            <td class="warning">pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Mini Drone</td>
+                            <td>859658</td>
+                            <td>Due</td>
+                            <td class="warning">pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+        </main>
+
+        <!-- -----------END OF MAIN SECTION ------------ -->
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-symbols-outlined">
+                        menu
+                    </span>
+                </button>
+
+                <div class="theme-toggler">
+                    <span class="material-symbols-outlined active">
+                        light_mode
+                    </span>
+                    <span class="material-symbols-outlined">
+                        dark_mode
+                    </span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey <b>Himanshu</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="assets/img/—Pngtree—user icon_5097430.png">
+                    </div>
+                </div>
+            </div>
+            <!-- -----END OF TOP----- -->
+            <div class="recent-updates">
+                <h2>Recent Updates</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img style="width: 40px;" src="assets/img/—Pngtree—user icon_5097430.png">
+                        </div>
+                        <div class="message">
+                            <p><b>Tanay</b> Received his order</p>
+                            <small class="text-muted">2 Mintues Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img style="width: 40px;" src="assets/img/—Pngtree—user icon_5097430.png">
+                        </div>
+                        <div class="message">
+                            <p><b>Abhishek</b> Received his mini drone</p>
+                            <small class="text-muted">2 Mintues Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img style="width: 40px;" src="assets/img/—Pngtree—user icon_5097430.png">
+                        </div>
+                        <div class="message">
+                            <p><b>Ansul</b> Received his order</p>
+                            <small class="text-muted">2 Mintues Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img style="width: 40px;" src="assets/img/—Pngtree—user icon_5097430.png">
+                        </div>
+                        <div class="message">
+                            <p><b>Monjo</b> Received his black Digi Drone</p>
+                            <small class="text-muted">2 Hours Ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- -----------END OF RECENT UPDATES--------------- -->
+
+            <div class="sales-analytics">
+                <h2>Sales Analytics</h2>
+                <div class="item online">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Online Order</h3>
+                            <small class="text-muted">
+                                Last 24 Hours
+                            </small>
+                        </div>
+                        <h4 class="success">
+                            +39%
+                        </h4>
+                        <h3>3849</h3>
+                    </div>
+                </div>
+                <div class="item offline">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            local_mall
+                        </span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Offline Order</h3>
+                            <small class="text-muted">
+                                Last 24 Hours
+                            </small>
+                        </div>
+                        <h4 class="danger">
+                            -17%
+                        </h4>
+                        <h3>3849</h3>
+                    </div>
+                </div>
+
+                <div class="item customers">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            person
+                        </span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>New Customers</h3>
+                            <small class="text-muted">
+                                Last 24 Hours
+                            </small>
+                        </div>
+                        <h4 class="danger">
+                            +57%
+                        </h4>
+                        <h3>9856</h3>
+                    </div>
+                </div>
+                <div class="item add-products">
+                    <div>
+                        <span class="material-symbols-outlined">
+                            add
+                        </span>
+                        <h2>Add Products</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- -----------JAVASCRIPT------------ -->
+    <script text="script" src="assets/main.js"></script>
+</body>
+
+</html>
